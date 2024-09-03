@@ -5,7 +5,9 @@ on:
       - opened
       - closed
     branches:
-      - 'dev-sahan'
+      - main
+      - 'dev-*'
+      - 'feat/**'
 jobs:
   test:
     runs-on: ubuntu-latest
