@@ -3,9 +3,8 @@ on:
   pull_request:
     types:
       - opened
-    branches:
-      - 'dev-*'
-      - 'feat/**'
+    branches-ignore:
+      - main
 
 jobs:
   test:
