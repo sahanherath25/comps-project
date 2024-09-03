@@ -3,16 +3,14 @@ on:
   pull_request:
     types:
       - opened
-      - closed
     branches:
-      - main
       - 'dev-sahan'
       - 'feat/**'
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Get the code
+      - name: Get the cod
         uses: actions/checkout@v4
       - name: Install Node Js
         uses: actions/setup-node@v4
