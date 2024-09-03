@@ -4,7 +4,7 @@ on:
     types:
       - opened
     branches:
-      - dev-sahan
+      - 'test-sahan'
 
 jobs:
   test:
