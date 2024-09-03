@@ -8,10 +8,6 @@ on:
       - main
       - 'dev-**'
       - 'test/**/'
-  push:
-    branches:
-      - main
-      - 'dev-sahan'
 jobs:
   test:
     runs-on: ubuntu-latest
