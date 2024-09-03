@@ -6,8 +6,6 @@ on:
       - closed
     branches:
       - main
-      - 'dev-sahan'
-      - 'feat/**'
 jobs:
   test:
     runs-on: ubuntu-latest
