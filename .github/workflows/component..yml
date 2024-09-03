@@ -6,7 +6,7 @@ on:
       - closed
     branches:
       - main
-      - 'dev-*'
+      - 'dev-sahan'
       - 'feat/**'
 jobs:
   test:
