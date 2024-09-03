@@ -6,6 +6,11 @@ on:
     branches:
       - 'dev-sahan'
 
+  push:
+    branches:
+      - main
+      - 'devs-sahan'
+
 jobs:
   test:
     runs-on: ubuntu-latest
