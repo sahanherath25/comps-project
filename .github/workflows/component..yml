@@ -11,9 +11,7 @@ on:
   push:
     branches:
       - main
-      - 'devs-sahan'
-
-
+      - 'dev-sahan'
 jobs:
   test:
     runs-on: ubuntu-latest
