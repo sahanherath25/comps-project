@@ -5,6 +5,7 @@ on:
       - opened
     branches:
       - 'dev-*'
+      - main
 
 jobs:
   test:
