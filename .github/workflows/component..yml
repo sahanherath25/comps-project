@@ -4,8 +4,9 @@ on:
     types:
       - opened
     branches:
-      - 'dev-sahan'
+      - 'dev-*'
       - 'feat/**'
+
 jobs:
   test:
     runs-on: ubuntu-latest
